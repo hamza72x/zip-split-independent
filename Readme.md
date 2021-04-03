@@ -16,3 +16,5 @@ go get github.com/hamza02x/zip-split-independent
   -s float
     	split size (in MB) (default 1)
 ```
+
+https://superuser.com/questions/168207/how-to-split-a-zip-file-across-independent-volumes/1639093#1639093
