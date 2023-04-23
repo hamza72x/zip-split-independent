@@ -1,0 +1,21 @@
+# .goreleaser.yaml
+builds:
+  -
+    id: "zip-split-independent"
+
+    main: .
+
+    binary: zip-split-independent
+
+    env:
+      - CGO_ENABLED=0
+
+    goos:
+      - linux
+      - darwin
+      - windows
+
+    goarch:
+      - amd64
+      - arm64
+      
